@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1361 282">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: .04em;
+      }
+
+      .cls-2 {
+        letter-spacing: .02em;
+      }
+
+      .cls-3 {
+        letter-spacing: .04em;
+      }
+
+      .cls-4 {
+        fill: #000;
+        font-family: Bahnschrift, Bahnschrift;
+        font-size: 318.36px;
+        font-variation-settings: 'wght' 400, 'wdth' 100;
+      }
+    </style>
+  </defs>
+  <text class="cls-4" transform="translate(32 259.1)"><tspan class="cls-1" x="0" y="0">H</tspan><tspan class="cls-2" x="228.51" y="0">T</tspan><tspan x="388" y="0">MLI</tspan><tspan class="cls-3" x="906.27" y="0">N</tspan><tspan x="1141.62" y="0">T</tspan></text>
+  <text/>
+</svg>

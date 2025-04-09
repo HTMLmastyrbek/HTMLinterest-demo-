@@ -1,0 +1,271 @@
+
+
+/*-------------------------------tag-list--------------------*/
+.tag-list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: left;
+}
+
+
+.letter-item{
+    width: 100%;
+    margin-bottom: 2%;
+    color: #30464f;
+}
+.item-title{
+    background-color: #c8a185;
+    border-radius: 2px;
+    text-align: left;
+    white-space: nowrap;
+    min-width: 150px;
+    overflow-x: hidden;
+    margin-right: 4%;
+    margin-bottom: 1.7vh;
+    padding-left: 7px;
+}
+@media (max-width: 455px){
+    .item-title{
+        flex-basis: 90%;
+    }
+}
+@media (min-width: 456px) and (max-width: 950px){
+    .item-title{
+        flex-basis: 45%;
+    }
+}
+@media (min-width: 951px) and (max-width: 1150px){
+    .item-title{
+        flex-basis: 25%;
+    }
+}
+@media (min-width: 1151px){
+    .item-title{
+        flex-basis: 21%;
+    }
+}
+.item-title a{
+    text-decoration: none;
+    
+}
+.item-title a p code{
+    color: #30464f;    
+}
+.item-title a p{
+    color: black;
+}
+.item-title a p {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    line-height: 1.2;
+}
+.item-title a p span{
+    margin: 0;
+    line-height: 0;
+}
+/* -- ========================*/
+@media (max-width: 550px){
+    /* .head-sect h1{
+        font-size: clamp(40px, );
+    } */
+    h1{
+        font-size: 28px;
+    }
+    .letter-item p{
+        font-size: 15px;
+    } 
+    .item-title a p code{
+        font-size: 15px;
+    }
+    .item-title a p{
+        font-size: 15px;
+    }
+    .item-title{
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+}
+@media (min-width: 551px) and (max-width: 1200px){
+    
+    h1{
+        font-size: 30px;
+    }
+    .letter-item p{
+        font-size: 17px;
+    } 
+    .item-title a p code{
+        font-size: 17px;
+    }
+    .item-title a p{
+        font-size: 17px;
+        
+    }
+    .item-title{
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+}
+@media (min-width: 1201px) and (max-width: 2200px){
+    h1{
+        font-size: 38px;
+    }
+    .letter-item p{
+        font-size: 20px;
+    } 
+    .item-title a p code{
+        font-size: 18px;
+    }
+    .item-title a p{
+        font-size: 18px;
+    }
+    .item-title{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}
+@media (min-width: 2201px) and (max-width: 2600px){
+    h1{
+        font-size: 40px;
+    }
+    .letter-item p{
+        font-size: 20px;
+    } 
+    .item-title a p code{
+        font-size: 20px;
+    }
+    .item-title a p{
+        font-size: 20px;
+    }
+    .item-title{
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+}
+@media (min-width: 2601px) and (max-width: 3000px){
+    h1{
+        font-size: 42px;
+    }
+    .letter-item p{
+        font-size: 22px;
+    } 
+    .item-title a p code{
+        font-size: 22px;
+    }
+    .item-title a p{
+        font-size: 22px;
+    }
+    .item-title{
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+}
+@media (min-width: 3001px) and (max-width: 3400px){
+    h1{
+        font-size: 44px;
+    }
+    .letter-item p{
+        font-size: 24px;
+    } 
+    .item-title a p code{
+        font-size: 24px;
+    }
+    .item-title a p{
+        font-size: 24px;
+        
+    }
+    .item-title{
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+}
+@media (min-width: 3401px) and (max-width: 3700px){
+    h1{
+        font-size: 44px;
+    }
+    .letter-item p{
+        font-size: 30px;
+    } 
+    .item-title a p code{
+        font-size: 26px;
+    }
+    .item-title a p{
+        font-size: 26px;
+    }
+    .item-title{
+        padding-top: 9px;
+        padding-bottom: 9px;
+    }
+}
+@media (min-width: 3701px){
+    h1{
+        font-size: 46px;
+    }
+    .letter-item p{
+        font-size: 32px;
+    } 
+    .item-title a p code{
+        font-size: 28px;
+    }
+    .item-title a p{
+        font-size: 28px;
+    }
+    .item-title{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+
+.item-title:hover{
+    background-color: #9f806c;
+    border-radius: 2px;
+    text-align: left;
+    white-space: nowrap;
+    overflow-x: hidden;
+    padding-left: 7px;
+}
+.invalid{
+    border: 2px solid red;
+    border-right: 6px solid red;
+    border-radius: 2px; 
+}
+
+
+
+
+
+
+
+
+
+/* .tag-list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: space-between;
+}
+.letter-item{
+    width: 100%;
+}
+.item-title{
+    background-color: #c8a185;
+    color: #30464f;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 23px; 
+    font-weight: 450; 
+    flex-basis: 20%;
+}
+.item-title code,.item-title p{
+    color: #30464f;
+}
+.item-title:hover{
+    background-color: #9f806c;
+    color: #30464f;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 23px; 
+    font-weight: 450; 
+    flex-basis: 20%;
+} */

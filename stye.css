@@ -372,10 +372,17 @@ abbr[title]{
     align-items: center;
 }
 /*-------------------------------------------aside---------------------------*/
-.aside-link{
+
+.nav-links{
+    padding: 10%;
+    padding-bottom: 35vh;
+    display: block;
     text-decoration: none;
 }
 
+.nav-links:not(:last-of-type){
+    border-bottom: 1px solid #30464f;
+}
 
 .aside{
     background-color: #c8a185;

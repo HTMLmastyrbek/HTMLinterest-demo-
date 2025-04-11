@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../stye.css">
+    <link rel="stylesheet" href="../../item.css">
+    <link rel="icon" type="image/x-icon" href="../../../favicon_11539/favicon.svg">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <section class="head-sect col-12">
+            <h1>HTMLINT</h1><br>
+        </section>
+        <header class="header">
+            <a href="../../index.html" class="header-title"><img class="no-select header-title" src="../../SVG/SVG/Artboard 1.svg" alt=""></a>
+            <nav class="head-nav">
+                <span>
+                    <a href="../../tagList.html">
+                        <p>список тегов</p>
+                    </a>
+                </span>
+                <span>
+                    <a href="../../index.html">
+                        <p>об источнике</p>
+                    </a>
+                </span>
+            </nav>
+            <div class="burger">
+                <span></span>
+            </div>
+            <aside class="aside-mobile">
+                <a href="../../tagList.html" class="nav-links"><p>список тегов</p></a>
+                <a href="../../index.html" class="nav-links"><p>домашняя страница</p></a>
+            </aside>
+        </header>
+        <div class="big">
+            <div class="container-fluid snow">
+                <div class="row">
+                  <div class="col" style="padding-left: 0px;">
+                </div>
+                    <div class="col">
+                        <div class="row">
+                            <div class="col">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <main class="page">   
+                                    <h3 class="post-title">Тег audio</h3>
+                                    <div class="block">
+                                        <p>
+                                            <code class="code-span">audio</code> - добавляет аудио файл на сайт. 
+                                        </p>
+                                        <div class="tag-demo-demonstration">
+                                            <div class="tag-showcase">
+                                                <code>
+                                                    <span class="marker-tag">
+                                                        &lt;audio <span class="attribute-tag">src</span>=<span class="attribute-tag-content">"Korol_i_SHut_-_Lesnik.mp3"</span> <span class="attribute-tag">controls</span>&gt;
+                                                    </span>
+                                                    <span class="marker-tag">
+                                                        &lt;/audio&gt;
+                                                    </span>
+                                                </code>
+                                            </div>
+                                            <div class="tag-demo">
+                                                    <audio src="Korol_i_SHut_-_Lesnik_62571704.mp3" controls></audio>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h3 class="post-title">стили по умолчанию</h3>
+                                    <div class="block">
+                                        <div class="style-showcase">
+                                            <code>
+                                                <span class="css-sourse">audio</span><span class="marker-property">{<br>
+                                                  &nbsp; &nbsp; width:<span class="property-value-tag"> 300px</span>;&nbsp; &nbsp; //зависит от браузера<br>
+                                                  &nbsp; &nbsp; height:<span class="property-value-tag"> 54px</span>;&nbsp; &nbsp; //зависит от браузера<br>
+                                                }</span><br>
+                                                <span class="css-sourse">audio:not&#40;&#91;controls&#93;&#41;</span><span class="marker-property">{<br>
+                                                    &nbsp; &nbsp; display:<span class="property-value-tag"> none !important</span>;<br>
+                                                  }</span>
+                                              </code>
+                                        </div>
+                                    </div>
+                                    <h3 class="post-title">атрибуты</h3>
+                                    <div class="block">
+                                        <span class="code-span attribute">controls</span><br><br>
+                                        <p>
+                                            Атрибут позволяет пользователю управлять воспроизведением, перемоткой и другими настройками.
+                                        </p>
+                                    </div>
+                                    <div class="block">
+                                        <span class="code-span attribute">src=""</span><br><br>
+                                        <p>
+                                            Указывает путь к аудио-файлу.
+                                        </p>
+                                    </div>
+                                    <div class="block">
+                                        <span class="code-span attribute">autoplay</span><br><br>
+                                        <p>
+                                            Автовоспроизведение аудио при открытии страницы.
+                                        </p>
+                                    </div>
+                                    <div class="block">
+                                        <span class="code-span attribute">preload</span><br><br>
+                                        <p>
+                                            Загрузка аудио-файла вместе с загрузкой страницы. <br>
+                                            <span class="code-span">auto</span> - автоматическая загрузка при открытии страницы.<br>
+                                            <span class="code-span">metadata</span> - загрузка при старте воспроизведения аудио.<br>
+                                            <span class="code-span">none</span> - не загружать файл.<br>
+                                        </p>
+                                    </div>
+                                    <div class="block">
+                                        <span class="code-span attribute">loop</span><br><br>
+                                        <p>
+                                            Зацикливание воспроизведения аудио.
+                                        </p>
+                                    </div>
+                                    <div class="block">
+                                        <span class="code-span attribute">muted</span><br><br>
+                                        <p>
+                                            Отключение звука при загрузке аудио-файла.
+                                        </p>
+                                    </div>
+                                </main>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script>
+        document.querySelector('.burger').addEventListener('click', function() {
+            this.classList.toggle('active');
+            document.querySelector('.aside-mobile').classList.toggle('open');
+            document.querySelector('.burger').classList.toggle('burger-active');
+        })
+    </script>
+</body>
+</html>
